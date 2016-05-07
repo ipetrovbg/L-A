@@ -1,0 +1,51 @@
+<ui-gmap-google-map center='map.center' zoom='map.zoom'>
+    <ui-gmap-marker ng-repeat="l in markers" idKey="$index" coords="l.coords">
+        <ui-gmap-window isIconVisibleOnClick="true">
+            {{ l.content.title }}
+        </ui-gmap-window>
+    </ui-gmap-marker>
+    <!-- <ui-gmap-polyline path="coords" stroke="{color: '#D12122'}"></ui-gmap-polyline> -->
+    <!-- <ui-gmap-search-box parentid="searchBoxId" template='<input type="text"'></ui-gmap-search-box> -->
+</ui-gmap-google-map>
+
+<div class="left-container">
+	<div class="row">
+		<div class="col-md-10 col-md-offset-1">
+
+			<!-- Form -->
+			<div id="location-form">
+				<div class="panel panel-danger">
+			    <div class="panel-heading">Locations</div>
+				    <div class="panel-body">
+				    	<div class="row">
+				    		<div class="col-md-10 col-md-offset-1 text-center">
+				    			<p class="alert-success" id="success-register"></p>
+				    			<p class="alert-danger" id="error-register"></p>
+				    		</div>
+				    	</div>
+				    	<form role="form" ng-submit="gmap()">
+
+						  <div class="form-group">
+						    <label for="title">Address:</label>
+						    <input ng-model="title" type="text" required class="form-control" id="title">
+						  </div>
+
+						  <div class="form-group">
+						    <label for="comment">Message:</label>
+						    <textarea class="form-control" rows="5" id="comment" ng-model="contentLocation"></textarea>
+						  </div>
+
+						  <button type="submit" class="btn btn-primary">Submit</button>
+						  <button type="button" ng-click="findLocation()" class="btn btn-primary">Find</button>
+						</form>
+				  </div>
+			    </div>
+		    </div>
+			<!-- /Form -->
+
+			<div id="while">
+				<img width="200" src="img/pexels-photo.jpg" alt="forScroll">
+			</div>
+		</div>		
+	</div>
+</div>
