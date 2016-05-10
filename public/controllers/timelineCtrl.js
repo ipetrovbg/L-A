@@ -96,7 +96,7 @@
                 $scope.dateTime = [y];
             }
             $scope.mytime = mytime;
-        }
+        } 
         $scope.dateTime = [$scope.currentTime];
     };
     app.controller('timelineCtrl', timelineCtrl);
