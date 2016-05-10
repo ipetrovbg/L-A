@@ -11,46 +11,9 @@
                 }
             });
         };
-        /*$(window).scroll($.debounce(250, function() {
-            console.log('done');
-        }));*/
-        var myWhile = document.getElementById('while');
 
-        function displaywheel(e) {
-            var evt = window.event || e //equalize event object
-            var delta = evt.detail ? evt.detail * (-120) : evt.wheelDelta //check for detail first so Opera uses that instead of wheelDelta
-            var myImg = document.getElementById("while").getElementsByTagName('img')[0];
-            var myWidth = myImg.getAttribute("width");
-            var max = 680;
-            var min = 200;
-            /*document.getElementById("wheelvalue").innerHTML=delta*/ //delta returns +120 when wheel is scrolled up, -120 when down
-            if (delta == -360) {
-                // console.log('down');
-                if (myWidth == min) {
-                    return false;
-                    evt.preventDefault();
-                } else {
-                    myImg.setAttribute("width", (myWidth - 20));
-                }
-            } else if (delta == 360) {
-                // console.log('up');
-                if (+myWidth == max) {
-                    evt.preventDefault();
-                    return false;
-                } else {
-                    var grow = +myWidth + (20);
-                    myImg.setAttribute("width", grow);
-                }
-            }
-            if (evt.preventDefault) //disable default wheel action of scrolling page
-                evt.preventDefault()
-            else return false
-        }
-        var mousewheelevt = (/Firefox/i.test(navigator.userAgent)) ? "DOMMouseScroll" : "mousewheel" //FF doesn't recognize mousewheel as of FF3.x
-        if (myWhile.attachEvent) //if IE (and Opera depending on user setting)
-            myWhile.attachEvent("on" + mousewheelevt, displaywheel)
-        else if (myWhile.addEventListener) //WC3 browsers
-            myWhile.addEventListener(mousewheelevt, displaywheel, false);
+        
+
         $scope.markers = [];
         $scope.locations = [];
         $scope.coords = [];

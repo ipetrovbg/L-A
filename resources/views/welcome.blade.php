@@ -18,6 +18,7 @@
         <script type="text/javascript" src="jquery.ba-throttle-debounce.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="angularjs.js"></script>
+        <script type="text/javascript" src="hamster.js"></script>
         <script src="angular-route.js"></script>
         <script src="angular-animate.min.js"></script>
         <script src="angular-cookies.min.js"></script>
@@ -31,9 +32,11 @@
         <script src="controllers/aboutCtrl.js"></script>
         <script src="controllers/navCtrl.js"></script>
         <script src="controllers/dashboardCtrl.js"></script>
+        <script src="controllers/timelineCtrl.js"></script>
         <script src="directives/navigation.js"></script>
         <script src="directives/angular-simple-logger.js"></script>
         <script src="directives/angular-google-maps.js"></script>
+        <script src="directives/mousewheel.js"></script>
         <script src="services/sha1.js"></script>
         <script src="services/auth.js"></script>
         <script src="services/locations.js"></script>

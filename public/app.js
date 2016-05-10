@@ -1,5 +1,5 @@
 (function(){
-	var app = angular.module('LAApp', ["ngRoute", "ngAnimate", "ngCookies", "uiGmapgoogle-maps"]);
+	var app = angular.module('LAApp', ["ngRoute", "ngAnimate", "ngCookies", "uiGmapgoogle-maps", "monospaced.mousewheel"]);
 
 app.config(['$routeProvider', function($routeProvider) {
 	    $routeProvider.
@@ -25,6 +25,10 @@ app.config(['$routeProvider', function($routeProvider) {
 	       when('/dashboard', {
 	       	templateUrl: 	'templates/dashboard.html',
 	        controller: 	'dashboardCtrl'
+	      }).
+	        when('/timeline', {
+	       	templateUrl: 	'templates/timeline.html',
+	        controller: 	'timelineCtrl'
 	      }).
 	      otherwise({
 	        redirectTo: '/'
