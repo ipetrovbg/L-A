@@ -3,5 +3,6 @@
 </h2>
 <div class="msd-wheel: myFunction($event, $delta);" id="while"> <!--  -->
     <!-- <img width="200" src="img/pexels-photo.jpg" alt="forScroll"/> -->
-    <p ng-if="mytime">{{ currentTime }} | {{ mytime }}</p>
+    <!-- <p ng-if="mytime">{{ currentTime }} | {{ mytime }}</p> -->
+    <p ng-repeat="d in dateTime">{{ $index }} - {{ d }}</p>
 </div>

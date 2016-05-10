@@ -15,6 +15,7 @@
     async defer></script>
         <script type="text/javascript" src="https://cdn.jsdelivr.net/lodash/4.11.2/lodash.js"></script>
         <script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
+        <script type="text/javascript" src="moment.min.js"></script>
         <script type="text/javascript" src="jquery.ba-throttle-debounce.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="angularjs.js"></script>

@@ -65,12 +65,12 @@ body {
 .left-container{float: left;width: 60%;}
 #while{
     border: 1px solid red;
-    max-height: 200px;
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
+    min-height: 200px;
+    /*height: 200px;*/
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    /*overflow: hidden;*/
 }
 #while img{
     height: auto;

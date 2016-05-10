@@ -1,0 +1,446 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cons",
+				"console.log()"
+			],
+			[
+				"wi",
+				"width	Style CSS"
+			],
+			[
+				"con",
+				"justify-content"
+			],
+			[
+				"getE",
+				"getElementById(id)	Element"
+			],
+			[
+				"if",
+				"if()"
+			],
+			[
+				"loc",
+				"$location	AngularJS"
+			],
+			[
+				"sc",
+				"$scope	AngularJS"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"html",
+				"htmlspecialchars"
+			],
+			[
+				"ge",
+				"get"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"re",
+				"reverse"
+			],
+			[
+				"dislike",
+				"dislikes"
+			],
+			[
+				"border-col",
+				"border-collapse"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"my",
+				"myController"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"ali",
+				"align-items"
+			],
+			[
+				"back",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "Emmet",
+		"selected_items":
+		[
+			[
+				"Emmet",
+				"Emmet: Increment Number by 10"
+			],
+			[
+				"",
+				"AngularJS: Look Up Definition"
+			],
+			[
+				"sni",
+				"SublimeLint: Next Error"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Blade @can"
+			],
+			[
+				"Snippet: eme",
+				"Snippet: Blade comments"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/var/www/html/laravel-angularjs",
+		"/var/www/html/laravel-angularjs/L-A"
+	],
+	"file_history":
+	[
+		"/home/petar/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/var/www/html/laravel-angularjs/public/controllers/mainCtrl.js",
+		"/var/www/html/laravel-angularjs/public/css/style.css",
+		"/var/www/html/laravel-angularjs/public/templates/main.html",
+		"/var/www/html/laravel-angularjs/public/jquery.ba-throttle-debounce.js",
+		"/var/www/html/laravel-angularjs/public/controllers/loginCtrl.js",
+		"/var/www/html/laravel-angularjs/public/services/locations.js",
+		"/var/www/html/laravel-angularjs/public/services/auth.js",
+		"/var/www/html/laravel-angularjs/app/Http/Controllers/locationController.php",
+		"/var/www/html/laravel-angularjs/app/Http/routes.php",
+		"/var/www/html/laravel-angularjs/app/Http/Controllers/userController.php",
+		"/var/www/html/laravel-angularjs/resources/views/welcome.blade.php",
+		"/home/petar/.config/sublime-text-3/Packages/Emmet/Default (Linux).sublime-keymap",
+		"/var/www/html/laravel-angularjs/public/templates/searchbox.tpl.html",
+		"/home/petar/Desktop/laravel-angularjs/public/templates/main.html",
+		"/home/petar/Desktop/main.html",
+		"/var/www/html/laravel-angularjs/public/templates/login.html",
+		"/var/www/html/laravel-angularjs/config/auth.php",
+		"/var/www/html/laravel-angularjs/app/Http/Kernel.php",
+		"/var/www/html/laravel-angularjs/app/Http/Controllers/firstController.php",
+		"/var/www/html/laravel-angularjs/public/templates/about.html",
+		"/home/petar/.config/sublime-text-3/Packages/CodeFormatter/CodeFormatter.sublime-settings",
+		"/home/petar/.config/sublime-text-3/Packages/CodeFormatter/Default (Linux).sublime-keymap",
+		"/home/petar/.config/sublime-text-3/Packages/User/CodeFormatter.sublime-settings",
+		"/home/petar/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/petar/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/petar/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/var/www/html/laravel-angularjs/.gitignore",
+		"/var/www/html/laravel-angularjs/.env",
+		"/var/www/html/laravel-angularjs/.env.example",
+		"/var/www/Untitled Folder/projects/lift-hr/wp-content/themes/lift-hr/functions/themeSetup.php",
+		"/var/www/Untitled Folder/projects/lift-hr/wp-content/themes/lift-hr/functions.php",
+		"/var/www/projects/vrachovski/public_html/vrachovski/forum/index.php",
+		"/var/www/Untitled Folder/projects/lift-hr/wp-content/themes/lift-hr/blog.php",
+		"/var/www/Untitled Folder/projects/lift-hr/wp-content/themes/lift-hr/functions/liftHR.php",
+		"/home/petar/Desktop/custom_post_type.php",
+		"/home/petar/Desktop/AngularJS/sorting.js",
+		"/var/www/html/info.php",
+		"/var/www/projects/vrachovski/public_html/vrachovski/forum/config.php",
+		"/var/www/projects/vrachovski/public_html/vrachovski/forum/app.php",
+		"/home/petar/Desktop/AngularJS/search.html",
+		"/home/petar/Desktop/AngularJS/scripts/searching.js",
+		"/home/petar/Desktop/AngularJS/sorting.html",
+		"/home/petar/Desktop/AngularJS/scripts/script.js",
+		"/home/petar/Desktop/AngularJS/index.html",
+		"/home/petar/Desktop/AngularJS/angular.js",
+		"/home/petar/Desktop/AngularJS/script.js",
+		"/var/www/projects/lift-hr/wp-content/plugins/visual-form-builder/includes/class-export.php",
+		"/home/petar/Desktop/html2pdf-4.5.1/examples/exemple02.php",
+		"/home/petar/Desktop/tcpdf/examples/example_001.php",
+		"/home/petar/Desktop/tcpdf/examples/tcpdf_include.php",
+		"/var/www/projects/lift-hr/wp-content/plugins/visual-form-builder/uninstall.php",
+		"/var/www/projects/lift-hr/wp-content/plugins/visual-form-builder/includes/form-output.php",
+		"/home/petar/Desktop/html2pdf-4.5.1/examples/exemple11.php",
+		"/home/petar/Desktop/html2pdf-4.5.1/examples/bookmark.php",
+		"/home/petar/Desktop/html2pdf-4.5.1/examples/exemple03.php",
+		"/home/petar/Desktop/CodeIgniter-3.0.4/system/database/DB_driver.php",
+		"/home/petar/Desktop/CodeIgniter-3.0.4/system/database/drivers/mysqli/mysqli_driver.php",
+		"/home/petar/Desktop/CodeIgniter-3.0.4/application/controllers/Welcome.php",
+		"/home/petar/Desktop/CodeIgniter-3.0.4/system/helpers/form_helper.php",
+		"/home/petar/Desktop/CodeIgniter-3.0.4/system/database/DB.php",
+		"/home/petar/Desktop/CodeIgniter-3.0.4/application/config/database.php",
+		"/home/petar/Desktop/CodeIgniter-3.0.4/system/database/drivers/mysqli/mysqli_utility.php",
+		"/home/petar/Desktop/CodeIgniter-3.0.4/system/core/Config.php",
+		"/home/petar/Desktop/CodeIgniter-3.0.4/system/core/Hooks.php",
+		"/home/petar/Desktop/CodeIgniter-3.0.4/system/helpers/array_helper.php",
+		"/home/petar/Desktop/CodeIgniter-3.0.4/system/language/english/calendar_lang.php",
+		"/home/petar/Desktop/CodeIgniter-3.0.4/system/index.html",
+		"/home/petar/Desktop/CodeIgniter-3.0.4/system/database/DB_result.php",
+		"/home/petar/Desktop/CodeIgniter-3.0.4/application/config/autoload.php",
+		"/var/www/projects/ipetrovdev/wp-content/themes/ipetrovtheme/framework/confiq/db.php",
+		"/var/www/html/slider.php",
+		"/var/www/html/default.js",
+		"/var/www/html/index.html",
+		"/var/www/html/testphp.php",
+		"/home/petar/Desktop/CodeIgniter-3.0.4/system/core/CodeIgniter.php",
+		"/home/petar/Desktop/CodeIgniter-3.0.4/system/core/Controller.php",
+		"/home/petar/Desktop/CodeIgniter-3.0.4/system/core/Loader.php",
+		"/var/www/projects/ipetrovdev/wp-content/themes/ipetrovtheme/framework/Test.php",
+		"/var/www/html/style.css",
+		"/var/www/test.php",
+		"/var/www/info.php",
+		"/home/petar/Desktop/meks-smart-author-widget/inc/meks-smart-author-widget-template.php",
+		"/home/petar/Desktop/meks-smart-author-widget/inc/class-author-widget.php",
+		"/home/petar/Desktop/meks-smart-author-widget/meks-smart-author-widget.php",
+		"/home/petar/NetBeansProjects/autoreader dev/home/nikivr/public_html/autoreader/wp-content/themes/autoreader_v3/theme-options/class_theme_options.php",
+		"/home/petar/NetBeansProjects/autoreader dev/home/nikivr/public_html/autoreader/wp-content/themes/autoreader_v3/theme-options/generalThemeOptions.php",
+		"/home/petar/NetBeansProjects/autoreader dev/home/nikivr/public_html/autoreader/wp-content/themes/autoreader_v3/theme-options/edit_theme_options.php",
+		"/var/www/html/tree.php",
+		"/home/petar/Desktop/default.js",
+		"/var/www/html/task.php",
+		"/var/www/html/new.php",
+		"/etc/php5/apache2/php.ini"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\n			",
+			"-->\n",
+			"Form",
+			"side",
+			"togle_",
+			"toggle_",
+			"side",
+			"comment",
+			">\n",
+			"js",
+			"query"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 63.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 120.0
+	},
+	"pinned_build_system": "",
+	"project": "L-A.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"main.html",
+				"public/templates/main.html"
+			],
+			[
+				"mainctr",
+				"public/controllers/mainCtrl.js"
+			],
+			[
+				"welcome",
+				"resources/views/welcome.blade.php"
+			],
+			[
+				"loginctr",
+				"public/controllers/loginCtrl.js"
+			],
+			[
+				"aut",
+				"public/services/auth.js"
+			],
+			[
+				"routes",
+				"app/Http/routes.php"
+			],
+			[
+				"user",
+				"app/Http/Controllers/userController.php"
+			],
+			[
+				"lo",
+				"app/Http/Controllers/locationController.php"
+			],
+			[
+				"route",
+				"app/Http/routes.php"
+			],
+			[
+				"auth.j",
+				"public/services/auth.js"
+			],
+			[
+				"auth",
+				"config/auth.php"
+			],
+			[
+				"loc",
+				"public/services/locations.js"
+			],
+			[
+				"login.ht",
+				"public/templates/login.html"
+			],
+			[
+				"welc",
+				"resources/views/welcome.blade.php"
+			],
+			[
+				"style",
+				"public/css/style.css"
+			],
+			[
+				"",
+				"public/templates/about.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 283.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
