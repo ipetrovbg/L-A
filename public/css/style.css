@@ -61,17 +61,31 @@ body {
     float: right;
 }
 
-.navbar, .navbar-default {margin: 0;padding: 0;}
-.left-container{float: left;width: 60%;}
-#while{
+.navbar, .navbar-default {
+    margin: 0;
+    padding: 0;
+}
+
+.left-container {
+    float: left;
+    width: 60%;
+}
+
+#while {
     border: 1px solid red;
     min-height: 200px;
-    /*height: 200px;*/ 
+    /*height: 200px;*/
     /*display: flex;*/
     /*align-items: center;*/
     /*justify-content: center;*/
     /*overflow: hidden;*/
 }
-#while img{
+
+#while img {
     height: auto;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
 }

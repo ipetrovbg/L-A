@@ -10,6 +10,9 @@
 | and give it the controller to call when that URI is requested.
 |
 */
+Route::get('{all}', function () { 
+    return View::make('welcome'); 
+});
 
 Route::get('/', 'firstController@index');
 
@@ -20,3 +23,4 @@ Route::post('/isAuth', 'userController@isAuth');
 Route::post('/logout', 'userController@logout');
 Route::post('/getUserLocations', 'locationController@getUserLocations');
 Route::post('/insertLocation', 'locationController@insertLocation');
+Route::post('/upload', 'FileUpload@upload');

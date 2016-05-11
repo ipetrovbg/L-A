@@ -2,15 +2,20 @@
 <html ng-app="LAApp">
     <head>
         <title>Laravel an AngularJS</title>
+        <base href="/">
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <meta name="csrf-token" content="{{ csrf_token() }}" />
     </head>
     <body>
         <navigation></navigation>
         <!-- <div class="container"> -->
            <div ng-view></div>           
         <!-- </div> -->
+        <script>
+            var base_url        = "{{ url('/') }}";
+        </script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3LPNwbfVuv8eO0oqNNjpskerGBudoytE"
     async defer></script>
         <script type="text/javascript" src="https://cdn.jsdelivr.net/lodash/4.11.2/lodash.js"></script>
@@ -20,9 +25,11 @@
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="angularjs.js"></script>
         <script type="text/javascript" src="hamster.js"></script>
-        <script src="angular-route.js"></script>
+        <script src="angular-ui-router.min.js"></script>
+        <script src="angular-route.js"></script>        
         <script src="angular-animate.min.js"></script>
         <script src="angular-cookies.min.js"></script>
+        <script src="angular-file-upload.min.js"></script>
         
         <script src="app.js"></script>
         <script src="js/default.js"></script>

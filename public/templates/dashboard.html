@@ -1,1 +1,48 @@
-<h2>Dashboard</h2>
+<div class="row">
+    <div class="col-md-10 col-md-offset-1">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                Dashboard
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1 text-center">
+                        <p class="alert-success" id="success-register">
+                        </p>
+                        <p class="alert-danger" id="error-register">
+                        </p>
+                    </div>
+                </div>
+                <form role="form">
+                    <div class="form-group">
+                        <label for="file-to-upload">
+                            <p>
+                                Profile image:
+                            </p>
+                            <input type="file" id="file-to-upload" nv-file-select uploader="uploader"/>
+                            <br/>
+                            <ul>
+                                <li ng-repeat="item in uploader.queue">
+                                    Name:
+                                    <span ng-bind="item.file.name">
+                                    </span>
+                                    <br/>
+                                    <button ng-click="item.upload()">
+                                        upload
+                                    </button>
+                                </li>
+                            </ul>
+                        </label>
+                        <div ng-if="progres && progres < 100" class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%">
+                                <span class="sr-only">
+                                    0%
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

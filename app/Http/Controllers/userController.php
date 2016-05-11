@@ -44,6 +44,7 @@ class userController extends Controller {
           ['email' => 'john@example.com', 'votes' => 0]
           );
          */
+          
     }
 
     public function login(Request $request) {
@@ -54,6 +55,7 @@ class userController extends Controller {
         $request->session()->put('name', $user->name);
         $request->session()->put('email', $user->email);
         $request->session()->put('ID', $user->id);
+        $request->session()->put('img', $user->img_path);
 
         return response()->json(['user' => $user]);
     }

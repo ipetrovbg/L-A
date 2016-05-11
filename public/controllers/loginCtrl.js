@@ -16,6 +16,7 @@
 						$cookies.put('email', response.user.email);
 						$cookies.put('name', response.user.name);
 						$cookies.put('ID', response.user.id);
+						$cookies.put('img', response.user.img_path);
 						angular.element(document).find('.loading').hide();
 						angular.element(document).find('#error-register').text('');
 						angular.element(document).find('#success-register').text("Successfully login");
