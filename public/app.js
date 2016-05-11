@@ -1,8 +1,10 @@
 (function(){
-	var app = angular.module('LAApp', ["ngRoute", "ngAnimate", "ngCookies", "uiGmapgoogle-maps", "monospaced.mousewheel", "ui.router", "angularFileUpload"]);
+	var app = angular.module('LAApp', ["ngRoute", "ngAnimate", "ngCookies", "uiGmapgoogle-maps", "monospaced.mousewheel", "ui.router", "angularFileUpload", "angular-loading-bar"]);
 
-app.config(['$routeProvider', '$stateProvider', '$urlRouterProvider', '$locationProvider', 
-	function($routeProvider, $stateProvider, $urlRouterProvider, $locationProvider) {
+app.config(['$routeProvider', '$stateProvider', '$urlRouterProvider', '$locationProvider', 'cfpLoadingBarProvider', 
+	function($routeProvider, $stateProvider, $urlRouterProvider, $locationProvider, cfpLoadingBarProvider) {
+    	cfpLoadingBarProvider.spinnerTemplate = '<div></div>';
+
 	      $routeProvider.
 	      when('/', {
 	        templateUrl: 	'templates/main.html',

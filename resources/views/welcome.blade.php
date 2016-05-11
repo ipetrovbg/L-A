@@ -6,6 +6,7 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/loading-bar.css">
         <meta name="csrf-token" content="{{ csrf_token() }}" />
     </head>
     <body>
@@ -30,6 +31,7 @@
         <script src="angular-animate.min.js"></script>
         <script src="angular-cookies.min.js"></script>
         <script src="angular-file-upload.min.js"></script>
+        <script src="loading-bar.js"></script>
         
         <script src="app.js"></script>
         <script src="js/default.js"></script>
