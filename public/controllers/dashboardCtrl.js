@@ -60,7 +60,23 @@
 	            });
 	    };
 	    /* /upload profile picture */
-			
+	    
+
+	    /* on stop typing */
+	    var inputChangedPromise;
+
+		$scope.inputChanged = function(){
+		    if(inputChangedPromise){
+		        $timeout.cancel(inputChangedPromise);
+		    }
+		    inputChangedPromise = $timeout(taskToDo,1000);
+
+		}
+		
+		function taskToDo(){
+			console.log($scope.textVal);
+		}
+		/* /on stop typing */
 
 	};
 
